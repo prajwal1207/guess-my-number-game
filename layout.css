@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;   
+    background-color: rgb(61, 58, 58);
+    font-family: "Press Start 2P" , sans-serif ;
+}
+
+h1{
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.again {
+   
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    
+}
+
+.btn{
+    padding: 1rem;
+    width: 10rem;
+    border: 0ch;
+    color: black;
+    background-color: white;
+     font-family:"Press start 2p" ;
+     cursor: pointer;
+     
+}
+
+.btn:hover {
+    background-color: #ccc;
+  }
+
+.between{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+
+.number {
+    width: 10rem;
+    /* height: 8rem; */
+    background-color: white;
+    color: rgb(61, 57, 57);
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    font-size: 4rem;
+    padding: 3rem 0rem;
+    z-index: 999;
+    
+}
+
+.left{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+.right{
+    position: absolute;
+    top: 70%;
+    right: 20%;
+    
+}
+
+.guess{
+    padding: 0.8rem;
+    width: 10rem;
+    height: 5rem;
+    background-color: rgb(170, 161, 161);
+     font-family:"Press start 2p" ;
+     cursor: pointer;
+     margin: 0.7rem;
+     font-size: large;
+     border: 3px solid white;
+     font-size: xx-large;
+
+}
+
+.rectangle{
+    width: 100%;
+    height: .5rem;
+    background-color: white;
+    position: absolute;
+    top: 35%;
+}
+
+.check{
+    position: absolute;
+    left: 1.6rem;
+
+}
